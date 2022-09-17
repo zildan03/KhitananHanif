@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Khitanan Imam Musthafa Hanif</title>
+    <link rel="stylesheet" type="text/css" href="theme.css"> 
+    <link rel="stylesheet" type="text/css" href="./icons/css/all.min.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="heading">
+        Imam Musthafa Hanif
+        <span class="heading-subtext">Tasyakuran Khitanan</span>
+        <span class="heading-subtext">Putra dari Imam Arifianto dan Winarti</span>
+      </h1>
+    </header>
+    <a data-scroll class="fixed-button" href="#acara" id="rsvpButton">Lokasi Acara</a> 
+    <section class="section">
+      <h2 class="sub-heading">Ucapan</h2>
+      <h2 class= "sub-heading2">Assamualaikum Wr Wb</h2>
+      <p>Dengan rahmat allah yang maha kuasa insha allah kami akan melangsungkan syukuran khitanan</p>
+      <h2 class= "sub-heading2">Doa Meminta Keberkahan</h2>
+      <p>اَللَّهُمَّ فَطَهِّرْهُ مِنَ الذُّنُوْبِ، وَزِدْ فِيْ عُمْرِهِ وَادْفَعِ اْلآفَاتِ عَنْ بَدَنِهِ وَاْلأَوْجَاعِ عَنْ جِسْمِهِ، وَزِدْهُ مِنَ اْلغِنَى وَادْفَعْ عَنْهُ اْلفَقْرَ فَإِنَّكَ تَعْلَمُ وَلَا نَعْلَمُ </p> 
+      <p>Allāhumma fa thahhirhu minadz dzunūb, wa zid fi umrihī, wadfa‘il āfāti ‘an badanihī wal awjā‘i ‘an jismihī, wa zidhu minal ghinā, wadfa‘ ‘anhul faqra, fa innaka ta‘lamu wa lā na‘lamu.</p>
+      <p>Artinya, “Ya Allah, maka sucikanlah dia dari dosa-dosa. Tambahlah umurnya. Jagalah tubuhnya dari penyakit. Dan tambahlah kekayaan padanya dan jauhkan dari kefakiran. Maka sesungguhnya Engkau Maha Mengetahui sementara kami tidak mengetahui.”
+      </p>
+    </section>
+    <section class="section">
+      <h2 class="sub-heading">Undangan dan Acara</h2>
+      <p>Bahagia rasanya apabila anda berkenan hadir dan memberikan doa</p>
+      <div class="details">
+        <i class="fas fa-calendar-check"></i>
+        <h3 class="details-heading">Khitanan</h3>
+        <p>Jumat 23 September 2022</p>
+        <h3 class="details-heading">Acara</h3>
+        <p>Sabtu 24 September 2022</p>
+      </div>
+      <div class="details" id = "acara">
+        <i class="fas fa-map-marked-alt"></i>
+        <h3 class="details-heading">Peta Lokasi</h3>
+        <p><a rel="noopener" href="https://maps.app.goo.gl/ypcNYLRuo1AAowKFA">Klik Lokasi</a>, Empang Jaya Plawad, Krajan RT 10 RW 02 Krawang Timur</p>
+        <div class = "resort-image"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.78446131701!2d107.3477028!3d-6.2920342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6977d1746c90f9%3A0x3b08f6866ce0c4ae!2sEmpang%20jaya%20ipat!5e0!3m2!1sid!2sid!4v1663408173884!5m2!1sid!2sid" width="320" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      </div>
+      <div class="details">
+        <i class="fas fa-hands fa-shake"></i>
+        <h3 class="details-heading">Protokol Kesehatan</h3>
+        <p>Mohon untuk anda sahabat/kerabat dan saudara kami yang akan datang ke acara khitanan kami untuk tetap memperhatikan protokol kesehatan yaitu menggunakan masker, menjaga jarak, mencuci tangan dan selalu menjaga kesehatan dan juga imun tubuh. </p>
+        <p>terima kasih</p>
+      </div>
+      <div class="details">
+        <i class="fas fa-handshake"></i>
+        <h3 class="details-heading">Ucapan Terima Kasih</h3>
+        <p>Kami tidak bisa memberikan banyak ungkapan terima kasih atas kehadiran Anda pada hari yang penuh bahagia ini, kami tau ucapan ini tidak bisa menggantikan waktu Anda untuk datang ke acara Khitanan anak kami.</p> 
+        <p>Tapi, kami berharap kepada Allah Ta’ala Anda akan diberikan keberkahan juga.</p>
+        <p>Aamiin.</p>
+      </div>
+    </section>
+    <script src="./js/smooth-scroll.polyfills.min.js"></script>
+    <script defer>
+      var scroll = new SmoothScroll('a[href*="#"]');
+      var rsvpButton = document.getElementById('rsvpButton')
+      rsvpButton.addEventListener('click',hideButton,false);
+
+      function hideButton() {
+        rsvpButton.style.display = 'none';
+      }   
+    </script>
+  </body>
+</html>
